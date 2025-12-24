@@ -1,0 +1,16 @@
+LOG_FILE = "lansentry.log"
+SLACK_WEBHOOK = None
+EMAIL_CONFIG = None
+
+TRUSTED_GATEWAYS = {
+    '192.168.1.1': '94:e3:ee:38:5d:24',
+}
+
+TRUSTED_DHCP_SERVERS = set()
+TRUSTED_DNS = set()
+
+TRUSTED_APS = {
+    '94:e3:ee:38:5d:24': 'Wifi',
+}
+
+DHCP_OFFER_MULTIPLE_SERVERS_THRESHOLD = 1
